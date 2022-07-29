@@ -210,7 +210,7 @@ class Cadeira:
             except IOError:
                 print("Erro na leitura dos dados...")
 
-        print("==== Ordem Alfabética ====")
+        print("==== Ordem Alfabética de Nome ====")
         for file in os.listdir(self.curso +"/Resultados/Discentes/"):
             nomeF = file.split(".",1)[0]
             print("----- Cadeira: " + nomeF + " -----")
